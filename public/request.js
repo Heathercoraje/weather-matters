@@ -1,9 +1,9 @@
-fetch('https://api.github.com/users/heathercoraje/repos', {
+fetch(url, {
   method: 'GET'
 }).then(function(response) {
   return response.json();
 }).then(function(result){
-    console.log(result[5]);
+    console.log(result);
   }).catch(function(err){
   console.log('there is error: ', error);
 });
