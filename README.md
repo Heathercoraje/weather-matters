@@ -12,6 +12,6 @@ A charming web application to check current weather of user's location and more.
 ### Technologies
 
 + Vanilla JS
-+ Basic testing and code coverage check
++ Basic testing(Tape) and code coverage check(Istanbul)
 + API calls with Fetch
 + SASS
