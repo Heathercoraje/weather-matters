@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape test/test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Heathercoraje/weather-matters/issues"
   },
-  "homepage": "https://github.com/Heathercoraje/weather-matters#readme"
+  "homepage": "https://github.com/Heathercoraje/weather-matters#readme",
+  "dependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
 }
