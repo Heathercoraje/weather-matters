@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Heathercoraje/weather-matters#readme",
   "dependencies": {
     "tap-spec": "^4.1.1",
-    "tape": "^4.8.0"
+    "tape": "^4.8.0",
+    "unsplash-js": "^4.8.0"
   }
 }

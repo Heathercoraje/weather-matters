@@ -1,3 +1,21 @@
+import Unsplash from 'unsplash-js';
+
+const unsplash = new Unsplash({
+  applicationId: "54cf3ae44a3db6d5d98d23aee2f4d21848d0871c84b89e98b7a4b2c35713529e",
+  secret: "761285b28fe949e3e3e3d819110c7ba5c7b2bec880ae4fbdf7906eba61eb100c",
+  callbackUrl: "urn:ietf:wg:oauth:2.0:oob"
+});
+
+var button = document.getElementById('toggle');
+button.addEventListener('click', upsplash )
+function upsplash() {
+  upsplash.search.photos("dogs",1)
+  .then(toJson).then(json => {
+    console.log('hello, I am here!');
+    console.log(json);
+  });
+}
+
 
 (function() {
   function getHour() {
@@ -51,4 +69,7 @@
     console.log(iconPath);
     return iconPath;
   }
+
+
+
 })();
