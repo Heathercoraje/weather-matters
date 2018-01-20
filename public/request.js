@@ -1,13 +1,13 @@
-fetch(url, {
-  method: 'GET'
-}).then(function(response) {
-  return response.json();
-}).then(function(result){
-    console.log(result);
-  }).catch(function(err){
-  console.log('there is error: ', error);
-});
-
-
-
-// https://www.sitepoint.com/html5-geolocation/
+function request(url) {
+   fetch(url, {
+    method: 'GET'
+   }).then(function(response) {   // returning a resoloved promise
+    return response.json();
+   }).then(function(myJson){
+    var info = myJson;
+    console.log(info);
+    return info;
+    }).catch(function(error) {
+    console.log(error);
+  });
+}
