@@ -2,8 +2,7 @@
 
 A charming web application to check current weather of user's location and more.
 Check out the app [here](https://weather-matters.surge.sh/)
-
-![demo](/home/heather/Desktop/project/weather-matters/demo.png)
+![demo](https://github.com/Heathercoraje/weather-matters/blob/master/demo.png?raw=true)
 
 
 ### User stories
