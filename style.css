@@ -8,30 +8,34 @@
 body {
   width: 100%;
   height: 100vh;
-  background-color: #f9b9b3;
+  background-image: url('base.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-
 }
-.weather {
+.container {
   position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
-  width: 300px;
-  height: 200px;
+  width: 280px;
+  height: 280px;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 50%;
 }
 
-.degree-container {
-  width: 200px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+h3, h2, p, img {
+  padding: 2px;
 }
-.degree-container>p{
-  border-radius: 50px;
-  width: 33.3%;
-  border: 1px solid black;
+p {
+  font-size: 1.3em;
+}
+.dataBox{
+  color:white;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
 .tempUnit {
@@ -39,21 +43,8 @@ body {
   color: blue;
 }
 
-.giphy-container {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 40%;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-  }
 
-button {
-  width: 2em;
-  height: 1.5em;
-}
-img {
+.icon {
   width: 50px;
   height: 50px;
 }
