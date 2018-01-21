@@ -34,6 +34,11 @@ body {
   border: 1px solid black;
 }
 
+.tempUnit {
+  cursor: pointer;
+  color: blue;
+}
+
 .giphy-container {
     position: fixed;
     bottom: 0;
