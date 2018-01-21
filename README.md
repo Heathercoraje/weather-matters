@@ -1,6 +1,7 @@
 # weather-matters
 
 A charming web application to check current weather of user's location and more.
+Check out the app [here](https://weather-matters.surge.sh/)
 
 ### User stories
 
