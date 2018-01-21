@@ -2,6 +2,9 @@
 
 A charming web application to check current weather of user's location and more.
 
+![demo](/home/heather/Desktop/project/weather-matters/demo.png)
+
+
 ### User stories
 
 + User can check weather of her current location
